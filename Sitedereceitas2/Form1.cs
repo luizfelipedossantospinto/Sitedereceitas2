@@ -34,7 +34,7 @@ namespace Sitedereceitas2
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             FrmRegister frm = new FrmRegister();
-            frm.
+            frm.ShowDialog();
         }
     }
 }

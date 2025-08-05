@@ -45,7 +45,6 @@
             this.BtnExit.TabIndex = 0;
             this.BtnExit.Text = "SAIR\r\n";
             this.BtnExit.UseVisualStyleBackColor = false;
-            this.BtnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // LblName
             // 
