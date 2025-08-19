@@ -101,5 +101,23 @@
   <ItemGroup>
     <None Include="Resources\Sem título1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECEITA DO POVO %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

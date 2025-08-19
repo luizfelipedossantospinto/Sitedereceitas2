@@ -36,5 +36,17 @@ namespace Sitedereceitas2
             FrmRegister frm = new FrmRegister();
             frm.ShowDialog();
         }
+
+        private void BtnExit_Click_1(object sender, EventArgs e)
+        {
+            FrmRegister frm = new FrmRegister();
+            frm.ShowDialog();
+        }
+
+        private void BTNCAD_Click(object sender, EventArgs e)
+        {
+            FrmTelaInicial  frm= new FrmTelaInicial();
+            frm.ShowDialog();
+        }
     }
 }
