@@ -17,25 +17,9 @@ namespace Sitedereceitas2
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BTNSAIR2_Click(object sender, EventArgs e)
-        {
-            FrmRegister frm = new FrmRegister();
-            frm.ShowDialog();
-        }
-
-        private void TXBRG_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void BTNREGISTER_Click(object sender, EventArgs e)
         {
-            string name = TXBNAME.Text;
+            string NAME = TXBNAME.Text;
             string CPF = TXBCPF.Text;
             string RG = TXBRG.Text;
             string ADDESS = TXBADDRESS.Text;
@@ -43,12 +27,12 @@ namespace Sitedereceitas2
             string TEL = TXBTEL.Text;
             string CELL = TXBCELL.Text;
             string EMAIL = TXBEMAIL.Text;
-
         }
 
-        private void TXBTEL_TextChanged(object sender, EventArgs e)
+        private void BTNSAIR2_Click(object sender, EventArgs e)
         {
-
+            FrmRegister frm = new FrmRegister();
+            frm.ShowDialog();
         }
     }
 }

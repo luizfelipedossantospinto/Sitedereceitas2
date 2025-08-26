@@ -46,11 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="FrmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmTelaInicial.cs">
       <SubType>Form</SubType>
@@ -60,8 +68,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTelaInicial.resx">
       <DependentUpon>FrmTelaInicial.cs</DependentUpon>
@@ -89,35 +100,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\b3c83083.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\b3c830831.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sem título.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sem título1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RECEITA DO POVO %285%29.png" />
+    <None Include="Resources\RECEITA DO POVO %286%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,21 +31,21 @@ namespace Sitedereceitas2
             Environment.Exit(0);
         }
 
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-            FrmRegister frm = new FrmRegister();
-            frm.ShowDialog();
-        }
 
         private void BtnExit_Click_1(object sender, EventArgs e)
         {
-            FrmRegister frm = new FrmRegister();
-            frm.ShowDialog();
+            Environment.Exit(0);
         }
 
         private void BTNCAD_Click(object sender, EventArgs e)
         {
-            FrmTelaInicial  frm= new FrmTelaInicial();
+            FrmTelaInicial frm = new FrmTelaInicial();
+            frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmTelaInicial frm = new FrmTelaInicial();
             frm.ShowDialog();
         }
     }
