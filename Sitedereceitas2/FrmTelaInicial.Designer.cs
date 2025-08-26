@@ -153,7 +153,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Sitedereceitas2.Properties.Resources.RECEITA_DO_POVO__2_;
             this.ClientSize = new System.Drawing.Size(821, 534);
             this.Controls.Add(this.BTNSAIR2);
             this.Controls.Add(this.BTNREGISTER);
